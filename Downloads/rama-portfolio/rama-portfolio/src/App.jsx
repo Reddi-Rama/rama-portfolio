@@ -135,6 +135,8 @@ function App() {
 
         <h2>Projects</h2>
 
+        {/* PROJECT 1 */}
+
         <div className="project-card">
 
           <div className="project-logo">
@@ -155,6 +157,42 @@ function App() {
             rel="noreferrer"
           >
             View GitHub Repository
+          </a>
+
+        </div>
+
+        {/* PROJECT 2 */}
+
+        <div className="project-card">
+
+          <div className="project-logo">
+            A
+          </div>
+
+          <h3>AI App Compiler</h3>
+
+          <p>
+            AI-powered platform that converts natural language prompts
+            into structured full-stack software architectures using
+            modular AI pipelines.
+          </p>
+
+          <a
+            href="https://github.com/Reddi-Rama/ai-app-compiler"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View GitHub Repository
+          </a>
+
+          <br /><br />
+
+          <a
+            href="https://ai-app-compiler-seven.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Live Demo
           </a>
 
         </div>
@@ -212,13 +250,13 @@ function App() {
           </p>
 
           <p>
-  <strong>Phone:</strong>
-  <br />
+            <strong>Phone:</strong>
+            <br />
 
-  <a href="tel:+919704107583">
-    +91 9704107583
-  </a>
-</p>
+            <a href="tel:+919704107583">
+              +91 9704107583
+            </a>
+          </p>
 
           <p>
             <strong>GitHub:</strong>
@@ -241,7 +279,7 @@ function App() {
       <footer className="footer">
 
         <p>
-          © 2026 Reddi Rama Narithalli. All Rights Reserved.
+          © 2026 Rama Narithalli Reddi. All Rights Reserved.
         </p>
 
       </footer>
